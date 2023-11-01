@@ -14,7 +14,7 @@ app.use(helmet({
     crossOriginResourcePolicy: false,
 }));
 
-const whiteList = ['http://localhost:8080/users', 'https://leafy-loops-089483.netlify.app']
+const whiteList = ['http://localhost:8080', 'https://leafy-loops-089483.netlify.app']
 
 app.use(cors({ origin: whiteList }));
 
